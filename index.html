@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const pair = urlParams.get('pair');
+        window.location.href = `binance://future/USDT/${pair}`;
+    </script>
+</head>
+<body>
+    Redirecting to Binance App...
+</body>
+</html>
